@@ -1,4 +1,4 @@
-package de.hegmanns.it.utils.core.function;
+package de.hegmanns.it.utils.core;
 
 import java.io.Serializable;
 
@@ -17,7 +17,6 @@ import org.apache.commons.lang.builder.ToStringStyle;
  *  werden koennen.<br>
  *  Bitte beachten Sie, dass diese Eigenschaft NICHT gleichzusetzen ist mit
  *  "die Paramter koennen nicht geaendert werden".<br>
- *  
  * </p>
  * 
  * @author B. Hegmanns
@@ -36,7 +35,7 @@ public class Ref<T extends Serializable> implements Serializable{
 	
 	public Ref()
 	{
-		
+		// banaler Standard-Konstruktor
 	}
 
 	public T getValue() {

@@ -14,7 +14,7 @@ public class RefTest {
 		
 		HashSet<SillyObject> sillyObjects = new HashSet<>();
 		sillyObjects.add(sally);
-		
+		System.out.println("Ist Sally in Set enthalten: " + sillyObjects.contains(sally));
 		System.out.println("Hashcode von Sally:                       " + sally.hashCode());
 		sally.setIq(100); // Sally wird klueger ...
 		System.out.println("Hashcode von Sally (nach Gehirntherapie): " + sally.hashCode());

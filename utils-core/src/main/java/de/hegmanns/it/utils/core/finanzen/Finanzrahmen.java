@@ -1,4 +1,4 @@
-package de.hegmanns.it.utils.finanzen;
+package de.hegmanns.it.utils.core.finanzen;
 
 import de.hegmanns.it.utils.core.wertebereich.Wertebereich;
 import de.hegmanns.it.utils.core.wertebereich.WertebereichValue;
