@@ -10,7 +10,17 @@ import org.apache.commons.lang.builder.ToStringStyle;
 /**
  * Realisierung einer Referenz.
  * 
- * @author Bernd
+ * <h1>Wofuer um Himmels Willen wird eine "Referenz" benoetigt?</h1>
+ * <p>
+ * 	Methodenaufrufe in JAVA werden immer "byValue" aufgerufen. Das bedeutet, dass
+ *  die Parameter einer Methode von der aufgerufenen Methode nicht neu gesetzt
+ *  werden koennen.<br>
+ *  Bitte beachten Sie, dass diese Eigenschaft NICHT gleichzusetzen ist mit
+ *  "die Paramter koennen nicht geaendert werden".<br>
+ *  
+ * </p>
+ * 
+ * @author B. Hegmanns
  *
  * @param <T>
  */
